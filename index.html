@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Divine Dilibe</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <style>
     body {
       font-family: 'Poppins', sans-serif;
@@ -78,21 +79,21 @@
 </head>
 <body>
 
-  <h1>Divine Dilibe</h1>
-  <p><strong>FRONTEND WEB DEVELOPER</strong></p>
-  <p class="contact">
+  <h1 data-aos="fade-down">Divine Dilibe</h1>
+  <p data-aos="fade-right"><strong>FRONTEND WEB DEVELOPER</strong></p>
+  <p class="contact" data-aos="fade-left">
     <a href="#" target="_blank">LinkedIn</a> |
     <a href="tel:09030129356">09030129356</a> |
     <a href="mailto:divinenation1@gmail.com" target="_blank">divinenation1@gmail.com</a> |
     <a href="https://github.com/TheWeirdDee" target="_blank">GitHub</a>
   </p>
 
-  <div class="section">
+  <div class="section" data-aos="fade-up">
     <h2>Professional Summary</h2>
     <p>A Frontend Web Developer and Web3 writer who is passionate about building clean, user-focused digital experiences. I enjoy learning new technologies, solving real problems, and working on projects that challenge me to grow. Whether it is coding responsive interfaces or explaining complex Web3 concepts, I thrive in fast-paced, collaborative environments where I can make a real impact.</p>
   </div>
 
-  <div class="section">
+  <div class="section" data-aos="fade-up">
     <h2>Skills</h2>
     <p>
       <strong>Front End:</strong> HTML5, CSS3, JavaScript, React.js, Tailwind CSS, Bootstrap.<br>
@@ -102,20 +103,20 @@
     </p>
   </div>
 
-  <div class="section">
+  <div class="section" data-aos="fade-up">
     <h2>Education</h2>
     <p><strong>Codar</strong><br> Full Stack Web Development with a focus on Front End<br>
     <em>September 2023 – June 2024</em></p>
     <img src="Cert.jpg" alt="Certificate" width="280" height="200">
   </div>
 
-  <div class="section">
+  <div class="section" data-aos="fade-up">
     <p><strong>Yaba College of Technology</strong><br>
     Book Publishing<br>
     <em>Expected Graduation: December 2025</em></p>
   </div>
 
-  <div class="section">
+  <div class="section" data-aos="fade-up">
     <h2>Work Experience</h2>
     <h2>Projects</h2>
 
@@ -134,15 +135,13 @@
     </ul>
     <strong>Key Features:</strong>
     <ul>
-      <li>Animated Hero Section smooth entrance animations using Framer Motion.
-        </li>
-      <li>Subtle Hover Effects - Micro-interactions enhances user's feedback</li>
-      <li>Minimalist Design, Clean white space and typography for user focus.
-    </li>
-      <li>Reusable Components, Built with modular React components for consistency.
-    </li>
+      <li>Animated Hero Section with smooth entrance animations using Framer Motion.</li>
+      <li>Subtle Hover Effects for better interactivity and feedback.</li>
+      <li>Minimalist Design with clean white space and typography.</li>
+      <li>Reusable Components built with React for consistency.</li>
       <li>Fully mobile-optimized layout with clean typography and spacing.</li>
     </ul>
+
     <p class="class">
       <strong><a href="https://home-lutions.vercel.app/" target="_blank">HomeLutions</a></strong> – <em>Front End Web Designer</em>  
       <span style="float: right;">Jan 2025 – Mar 2025</span>
@@ -159,13 +158,21 @@
 
     <strong>Key Features:</strong>
     <ul>
-      <li>Animated pricing carousel that rotates between service plans with highlight effects.</li>
-      <li>Section with alternating layouts and a custom vertical connector line.</li>
-      <li>Responsive hero section with a modern layout.</li>
+      <li>Animated pricing carousel with rotating service plans and highlights.</li>
+      <li>“How It Works” section with alternating layouts and vertical connector line.</li>
+      <li>Responsive hero section with modern layout design.</li>
       <li>Interactive service cards with hover effects and icons.</li>
       <li>Fully mobile-optimized layout with clean typography and spacing.</li>
     </ul>
   </div>
 
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
 </body>
 </html>
